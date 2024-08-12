@@ -60,13 +60,14 @@ export const config = {
         'appium:platformVersion': '12.0',
         'appium:automationName': 'UiAutomator2'
     }, */
+    
     {
         browserName: 'chrome',
         browserVersion:'stable',
         'goog:chromeOptions': {
              //'wdio:chromedriverOptions':{
              //binary:'./drivers/chromedriver.exe',      
-             binary:'./drivers/chromedriver-linux64/chromedriver',  //chrome file for linux  
+            // binary:'./drivers/chromedriver-linux64/chromedriver',  //chrome file for linux  
             // //binary:'C:\\Users\\murali.krishnamurthy\\Documents\\chromedriver\\120.0.6099.109\\chrome-win64\\chrome.exe',
             // binary:'https://storage.googleapis.com/chrome-for-testing-public/122.0.6261.57/win64/chrome-win64.zip',
             // },
@@ -88,6 +89,7 @@ export const config = {
         //browserVersion:'stable'
         
     },
+
 ],
 
     //
