@@ -1,3 +1,4 @@
+const allure = require('allure-commandline')
 export const config = {
     //
     // ====================
@@ -159,7 +160,35 @@ export const config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec'],
+    reporters: [["spec",
+        {
+          addConsoleLogs: true,
+        }],
+        
+        /*['timeline', {
+            outputDir: './report/timeline/',
+            //+reportDate,
+            fileName: 'reporter.html',
+            embedImages: true,
+            images: {
+                quality: 90,
+                resize: false,
+                reductionRatio: 1
+            },
+            screenshotStrategy:
+            //'none'
+            'before:click'
+        }],
+        */
+        ['allure', {
+            outputDir: 'allure-results',
+            disableWebdriverStepsReporting: false,
+            disableWebdriverScreenshotsReporting: false,
+        }],
+        
+        
+        ],
+
 
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
