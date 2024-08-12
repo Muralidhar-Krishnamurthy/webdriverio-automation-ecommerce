@@ -76,7 +76,7 @@ export const config = {
               },
             args: [
                     //'--incognito',
-                    //"--headless",
+                    "--headless",
                     "window-size=1920,1080",
                     'disable-web-security',
         'allow-running-insecure-content',
