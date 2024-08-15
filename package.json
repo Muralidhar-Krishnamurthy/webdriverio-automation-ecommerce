@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@wdio/cli": "^8.40.2",
-    "allure-commandline": "^2.30.0"
+    "allure-commandline": "^2.30.0",
+    "webdriverio-automation-ecommerce": "file:"
   }
 }

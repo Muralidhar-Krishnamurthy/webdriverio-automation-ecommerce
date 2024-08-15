@@ -1,18 +1,24 @@
 name: CI
-on: [push, pull_request]
+on:  #schedule daily at 9am or on anything being pushed tot he branch
+  schedule:
+    - cron: '0 9 * * *' #runs 9 am daily
+  push:
+    branches:
+      - 'main' 
+  #[push, pull_request]
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest #macos-latest, windows-latest are other options
     steps:
         - name: Checkout
           uses: actions/checkout@v4
         - uses: actions/setup-node@v3
           with:
-            node-version: 18
+            node-version: 20
         - name: Install
           run: npm install
         - name: Test
-          run: npm run test
+          run: npm run test #package.json script to run
         - uses: actions/upload-artifact@v1
           if: failure()
           with:
