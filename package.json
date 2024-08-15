@@ -11,7 +11,8 @@
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.js",
-    "test": "npm run wdio"
+    "test": "npm run wdio",
+    "report": "allure generate && allure open "
   },
   "dependencies": {
     "@wdio/cli": "^8.40.2",

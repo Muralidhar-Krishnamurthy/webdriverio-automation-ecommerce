@@ -186,6 +186,12 @@ export const config = {
             outputDir: 'allure-results',
             disableWebdriverStepsReporting: false,
             disableWebdriverScreenshotsReporting: false,
+            /* reportedEnvironmentVars: {
+                os_platform: os.platform(),
+                os_release: os.release(),
+                os_version: os.version(),
+                node_version: process.version,
+              }, */
         }],
         
         
