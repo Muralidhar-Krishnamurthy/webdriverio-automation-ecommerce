@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(text(),'Shop Wheels')]\"}\n  (Session info: chrome=131.0.6778.108)",
+  "stacktrace": "#0 0x5573ca7a931a <unknown>\n#1 0x5573ca2bf6e0 <unknown>\n#2 0x5573ca30e3e6 <unknown>\n#3 0x5573ca30e681 <unknown>\n#4 0x5573ca353b04 <unknown>\n#5 0x5573ca33248d <unknown>\n#6 0x5573ca350ed7 <unknown>\n#7 0x5573ca332203 <unknown>\n#8 0x5573ca300cc0 <unknown>\n#9 0x5573ca301c9e <unknown>\n#10 0x5573ca776d0b <unknown>\n#11 0x5573ca77ac92 <unknown>\n#12 0x5573ca763b3c <unknown>\n#13 0x5573ca77b807 <unknown>\n#14 0x5573ca7490df <unknown>\n#15 0x5573ca798578 <unknown>\n#16 0x5573ca798740 <unknown>\n#17 0x5573ca7a8196 <unknown>\n#18 0x7f042fe94ac3 <unknown>\n"
+}
