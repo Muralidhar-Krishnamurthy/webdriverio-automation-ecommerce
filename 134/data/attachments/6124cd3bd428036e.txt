@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h1.plp__title\"}\n  (Session info: chrome=131.0.6778.108)",
-  "stacktrace": "#0 0x55e25b77631a <unknown>\n#1 0x55e25b28c6e0 <unknown>\n#2 0x55e25b2db3e6 <unknown>\n#3 0x55e25b2db681 <unknown>\n#4 0x55e25b320b04 <unknown>\n#5 0x55e25b2ff48d <unknown>\n#6 0x55e25b31ded7 <unknown>\n#7 0x55e25b2ff203 <unknown>\n#8 0x55e25b2cdcc0 <unknown>\n#9 0x55e25b2cec9e <unknown>\n#10 0x55e25b743d0b <unknown>\n#11 0x55e25b747c92 <unknown>\n#12 0x55e25b730b3c <unknown>\n#13 0x55e25b748807 <unknown>\n#14 0x55e25b7160df <unknown>\n#15 0x55e25b765578 <unknown>\n#16 0x55e25b765740 <unknown>\n#17 0x55e25b775196 <unknown>\n#18 0x7fd67c294ac3 <unknown>\n"
-}
